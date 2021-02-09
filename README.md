@@ -1,1 +1,2 @@
-# Hammer-Time
+# MatterJSBoilerPlate
+MatterJSBoilerPlate
