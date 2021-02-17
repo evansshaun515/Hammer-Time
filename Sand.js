@@ -1,12 +1,12 @@
-class Rubber {
+class Sand {
     constructor(x, y, radius, options) {
       var options = {
           'restitution':0.3,
           'friction':5.0,
           'density':1.0
       }
-      this.body = Matter.Bodies.circle(x, y, 75, options);
-      this.radius = 75;
+      this.body = Matter.Bodies.circle(x, y, 15, options);
+      this.radius = 15;
       
       
       World.add(world, this.body);
@@ -18,9 +18,9 @@ class Rubber {
       translate(pos.x, pos.y);
       rotate(angle);
       rectMode(CENTER);
-      strokeWeight(4);
+      strokeWeight(3);
       stroke('black');
-      fill('blue');
+      fill('red');
       circle(0, 0, this.radius);
       pop();
     }
