@@ -55,7 +55,6 @@ function draw() {
   stone.display();
   rubber.display();
   iron.display();
-  hammer.display();
   sand1.display();
   sand2.display();
   sand3.display();
@@ -64,7 +63,9 @@ function draw() {
   sand6.display();
   sand7.display();
   sand8.display();
-  
+  hammer.display();
+
+
   console.log(rubber);
   rubber.debug = true;
 
